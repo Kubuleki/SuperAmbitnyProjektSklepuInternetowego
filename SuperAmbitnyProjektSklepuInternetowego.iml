@@ -5,8 +5,8 @@
       <configuration>
         <datasource-map>
           <unit-entry name="config:hibernate.cfg.xml.tld" />
-          <unit-entry name="hibernate:config:hibernate.cfg.xml.tld" />
-          <unit-entry name="hibernate:resources:hibernate.cfg.xml.tld" />
+          <unit-entry name="hibernate:config:hibernate.cfg.xml.tld" value="52906da5-3a1f-4100-8539-76770ae3257d" />
+          <unit-entry name="hibernate:resources:hibernate.cfg.xml.tld" value="8ab05358-ae14-4cfa-8265-549edc676216" />
           <unit-entry name="resources:hibernate.cfg.xml.tld" />
         </datasource-map>
         <naming-strategy-map />

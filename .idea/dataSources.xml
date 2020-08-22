@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hibernate:resources:hibernate.cfg.xml.tld/Hibernate" uuid="8ab05358-ae14-4cfa-8265-549edc676216">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Lenovo/Desktop/SuperAmbitnyProjektSklepuInternetowego/src/main/java/hibernate/resources/hibernate.cfg.xml.tld</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/tm_db?serverTimezone=UTC</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate:config:hibernate.cfg.xml.tld/Hibernate" uuid="52906da5-3a1f-4100-8539-76770ae3257d">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/Lenovo/Desktop/SuperAmbitnyProjektSklepuInternetowego/src/main/java/hibernate/config/hibernate.cfg.xml.tld</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/tm_db?serverTimezone=UTC</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -32,7 +32,7 @@ public class CategoriesController {
     // to Spring przechwyci to żądanie i uruchomi metodę getCategories//
     @GetMapping("/{id}")
     public ResponseEntity<CategoriesDto> getCategories(@PathVariable("id") Long id){
-        final CategoriesDto singleCategories = CategoriesService.getSingleCategories(id);
+        final CategoriesDto singleCategories = categoriesSrvice.getSingleCategories(id);
         return ResponseEntity.ok().body(singleCategories);
     }
     //wysyłamy do serwera żądanie o stworzenie nowej kategorii przy użyciu metody cerateCategories
