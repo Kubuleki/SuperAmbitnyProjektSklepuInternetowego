@@ -25,7 +25,14 @@ public class CategoriesService {
     private final Categories categories2 = new Categories(2L, "Sport");
     private final Categories categories3 = new Categories(3L, "Motoryzacja");
     private final Categories categories4 = new Categories(4L, "Nieruchomości");
-    private final List<Categories> categoriesList = new ArrayList<>(Arrays.asList(categories1, categories2, categories3, categories4));
+    private final Categories categories5 = new Categories(5L, "Dziecko");
+    private final Categories categories6 = new Categories(6L, "Uroda");
+    private final Categories categories7 = new Categories(7L, "Zdrowie");
+    private final Categories categories8 = new Categories(8L, "Dom");
+    private final Categories categories9 = new Categories(9L, "Ogród");
+    private final Categories categories10 = new Categories(10L, "Moda");
+    private final List<Categories> categoriesList = new ArrayList<>(Arrays.asList(categories1, categories2, categories3, categories4,
+            categories5, categories6, categories7, categories8, categories9, categories10));
 
 
     public List<CategoriesDto> getAllCategories(){
@@ -36,7 +43,7 @@ public class CategoriesService {
     }
 //Nie jestem pewny czy powinno być tu wyszukiwanie po id
 // czy nie lepiej zmienić na wyszukiwanie po nazwie kategorii//
-    public CategoriesDto getSingleCategories(Long id){
+    public  CategoriesDto getSingleCategories(Long id){
         final Categories categoriesById = getCategoriesById(id);
         return CategoriesConverter.mapToDto(categoriesById);
     }
