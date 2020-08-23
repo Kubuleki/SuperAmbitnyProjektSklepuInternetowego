@@ -27,7 +27,7 @@ public class UserController {
         return ResponseEntity.ok().body(allUsers);
     }
 
-    @PostMapping
+    @PostMapping//tworzy nowego usera
     public ResponseEntity<Object> createUse(@RequestBody UserDto user){
         userService.addNewUser(user);
         return new ResponseEntity<>(HttpStatus.CREATED);
