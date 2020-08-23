@@ -26,6 +26,6 @@ public class User {
     private String userPassword;
     private String userName;
     private String userLastName;
-    private String UserAddress;
+    private String userAddress;
 
 }

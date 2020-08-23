@@ -12,8 +12,8 @@ public class UserConventer {
                 .userPassword(user.getUserPassword())
                 .userName(user.getUserName())
                 .userLastName(user.getUserLastName())
-                .userAddress(user.getUserAddress)
-                .bulid();
+                .userAddress(user.getUserAddress())
+                .build();
 
     }
 
@@ -23,7 +23,7 @@ public class UserConventer {
                 .userPassword(user.getUserPassword())
                 .userName(user.getUserName())
                 .userLastName(user.getUserLastName())
-                .userAddress(user.getUserAddress)
-                .bulid();
+                .userAddress(user.getUserAddress())
+                .build();
     }
 }
